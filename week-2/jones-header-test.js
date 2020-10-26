@@ -1,6 +1,6 @@
 /*
 ============================================
-; Title:  header-test.js
+; Title:  Header Test
 ; Author: Kevin Jones
 ; Date:   26 October 2020
 ; Description: This will display a formatted
