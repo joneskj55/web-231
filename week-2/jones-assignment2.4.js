@@ -13,27 +13,27 @@ const header = require("../jones-header");
 // header output
 console.log(header.display("Kevin", "Jones", "Exercise 2.4"));
 
-// get name function
+// define name function
 function fullName(firstName, lastName) {
   return firstName + " " + lastName;
 }
 
-// get date function
+// define date function
 function dateWriter(year, month, day) {
   return month + "/" + day + "/" + year;
 }
 
-// number formatter
+// define number formatter
 function formatNumber(number, numOfFixedPositions) {
   return number.toFixed(numOfFixedPositions);
 }
 
-// get age and parse int function
+// define age and parse int function
 function convertToInt(age) {
   return parseInt(age);
 }
 
-// get savings goal
+// define savings goal function
 function convertToFloat(greenbacks) {
   return parseFloat(greenbacks);
 }
