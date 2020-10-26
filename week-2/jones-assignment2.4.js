@@ -28,6 +28,16 @@ function formatNumber(number, numOfFixedPositions) {
   return number.toFixed(numOfFixedPositions);
 }
 
+// get age and parse int function
+function convertToInt(age) {
+  return parseInt(age);
+}
+
+// get savings goal
+function convertToFloat(greenbacks) {
+  return parseFloat(greenbacks);
+}
+
 // output
 console.log("\n" + "Hello my name is " + fullName("Kevin", "Jones") + "!");
 
@@ -38,4 +48,13 @@ console.log(
     " and the current temperature is " +
     formatNumber(33.599999, 1) +
     " degrees."
+);
+
+console.log(
+  "\n" +
+    "I am " +
+    convertToInt("36") +
+    " years old and my savings goal is " +
+    convertToFloat("71254411255455") +
+    " dollars."
 );
