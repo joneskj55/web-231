@@ -13,18 +13,22 @@ const header = require("../jones-header");
 // header output
 console.log(header.display("Kevin", "Jones", "Exercise 2.4"));
 
+// get name function
 function fullName(firstName, lastName) {
   return firstName + " " + lastName;
 }
 
+// get date function
 function dateWriter(year, month, day) {
   return month + "/" + day + "/" + year;
 }
 
+// number formatter
 function formatNumber(number, numOfFixedPositions) {
   return number.toFixed(numOfFixedPositions);
 }
 
+// output
 console.log("\n" + "Hello my name is " + fullName("Kevin", "Jones") + "!");
 
 console.log(
