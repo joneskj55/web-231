@@ -3,7 +3,7 @@
 ; Title:  Functions (Assignment 2.4)
 ; Author: Kevin Jones
 ; Date:   26 October 2020
-; Description: Function properties exercise
+; Description: Functions exercise
 ;===========================================
 */
 
