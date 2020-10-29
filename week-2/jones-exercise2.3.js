@@ -7,20 +7,20 @@
 ;===========================================
 */
 
-// Node or CommonJS `require` function to read and execute the jones-header.js file
+// This `require` function will read and execute the jones-header.js file.
 const header = require("../jones-header");
 
-// header output
+// This is our header output.
 console.log(header.display("Kevin", "Jones", "Exercise 2.3"));
 
 // space
 console.log("");
 
-// create function 'myName' with property of my name
+// This will define the function 'myName' with the property of my actual name.
 function myName() {
   myName.kevin = "Kevin";
   return myName.kevin;
 }
 
-// output
+// This will be the output.
 console.log("Hello " + myName() + " Jones!");
