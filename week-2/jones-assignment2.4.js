@@ -13,32 +13,32 @@ const header = require("../jones-header");
 // header output
 console.log(header.display("Kevin", "Jones", "Exercise 2.4"));
 
-// define name function
+// This block of code defines our name function.
 function fullName(firstName, lastName) {
   return firstName + " " + lastName;
 }
 
-// define date function
+// This block of code defines our date function.
 function dateWriter(year, month, day) {
   return month + "/" + day + "/" + year;
 }
 
-// define number formatter
+// This block of code defines our number formatter.
 function formatNumber(number, numOfFixedPositions) {
   return number.toFixed(numOfFixedPositions);
 }
 
-// define age and parse int function
+// This block of code defines our age function.
 function convertToInt(age) {
   return parseInt(age);
 }
 
-// define savings goal function
+// This block of code defines our savings goal function.
 function convertToFloat(greenbacks) {
   return parseFloat(greenbacks);
 }
 
-// output
+// This is our output.
 console.log("\n" + "Hello my name is " + fullName("Kevin", "Jones") + "!");
 
 console.log(
