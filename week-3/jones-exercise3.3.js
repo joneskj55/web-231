@@ -36,4 +36,5 @@ switch (eventKeyCode) {
     break;
   default:
     console.log("Unrecognized key.");
+    break;
 }
