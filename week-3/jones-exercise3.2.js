@@ -1,7 +1,7 @@
 /*
 ============================================
-; Title: Exercise 3.2
-; (Control Statements)
+; Title: Exercise 3.2 Pattern Matching
+; Functions
 ; Author: Kevin Jones
 ; Date: 2 November 2020
 ; Description: Pattern Matching Functions
