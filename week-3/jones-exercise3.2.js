@@ -4,7 +4,7 @@
 ; Functions
 ; Author: Kevin Jones
 ; Date: 2 November 2020
-; Description: Pattern Matching Functions
+; Description: Control statements program
 ;===========================================
 */
 // This `require` function will read and execute the jones-header.js file.
