@@ -1,6 +1,6 @@
 /*
 ============================================
-; Title: Exercise 3.4 - Loops
+; Title: Assignment 3.4 - Loops
 ; Author: Professor Krasso
 ; Date: 3 November 2020
 ; Modified By: Kevin Jones
@@ -12,7 +12,7 @@
 const header = require("../jones-header");
 
 // This is our header output.
-console.log(header.display("Kevin", "Jones", "Exercise 3.4"));
+console.log(header.display("Kevin", "Jones", "Assignment 3.4"));
 
 // Add a space for proper formatting.
 console.log("");
