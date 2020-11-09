@@ -19,6 +19,9 @@ console.log("");
 // Create a string array of 5 states.
 let states = ["Alabama", "Nebraska", "Iowa", "California", "Nevada"];
 
+// Initialize filterStates variable that will be used later in the program.
+let filterStates;
+
 // Display original array.
 console.log("-- ORIGINAL ARRAY --");
 for (let i = 0; i < states.length; i++) {
@@ -28,7 +31,7 @@ for (let i = 0; i < states.length; i++) {
 // Add space for formatting.
 console.log("");
 
-// Sort array alphabetically.
+// Sort array alphabetically and display in console.
 console.log("-- SORTED ARRAY --");
 for (let i = 0; i < states.length; i++) {
   console.log(states.sort()[i]);
@@ -42,6 +45,9 @@ function getState(param1, param2) {
     }
   }
 }
+
+// Use the filter() function to create an array filled with all elements that pass the getState() test.
+filterStates = states.filter(getState);
 
 // Add space for formatting.
 console.log("");
