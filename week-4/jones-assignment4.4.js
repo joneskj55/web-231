@@ -1,6 +1,6 @@
 /*
 ============================================
-; Title: Exercise 4.4 Predicates
+; Title: Assignment 4.4 Predicates
 ; Author: Kevin Jones
 ; Date: 9 November 2020
 ; Description: Program that sorts array
