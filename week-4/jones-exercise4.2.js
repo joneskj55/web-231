@@ -1,7 +1,6 @@
 /*
 ============================================
 ; Title: Exercise 4.2 Arrays
-; Functions
 ; Author: Kevin Jones
 ; Date: 9 November 2020
 ; Description: Program that iterates over an
