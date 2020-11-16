@@ -1,6 +1,6 @@
 /*
 ============================================
-; Title: Exercise 5.2 ES5 Built-In Functions
+; Title: Exercise 5.2 ES5 - Built-In Functions
 ; Author: Kevin Jones
 ; Date: 16 November 2020
 ; Description: Program that utilizes forEach()
