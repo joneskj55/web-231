@@ -10,7 +10,7 @@
 */
 
 // declare new Map() variable
-let javascriptTypes = new Map();
+let javascriptTypes = new Map[];
 
 // add keys and values to javascriptTypes
 javascriptTypes
@@ -21,7 +21,7 @@ javascriptTypes
   .set(function () {}, "function");
 
 // iterate through javascriptTypes & return keys and values in console
-for (let [key, value] of javascriptTypes) {
+for (let (key, value) of javascriptTypes) {
   if (value === "object") {
     console.log(
       "In the JavaScript programming language " + key + " is an " + value + "."
