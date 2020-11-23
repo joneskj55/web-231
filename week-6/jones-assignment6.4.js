@@ -3,9 +3,9 @@
 ; Title: Assignment 6.4 Nested Object Literals
 ; Author: Kevin Jones
 ; Date: 23 November 2020
-; Description: Program that uses map() to
-; filter an array for specific data and
-; forEach() to iterate and output said data.
+; Description: Program that creates a nested
+; object literal and gets & displays information
+; from it.
 ;===========================================
 */
 
