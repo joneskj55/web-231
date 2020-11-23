@@ -19,7 +19,7 @@ let playerOne = {
 let playerTwo = {
   name: "Kevin Durant",
   age: 32,
-  height: "6t. 10 in.",
+  height: "6ft. 10 in.",
   weight: 240
 };
 
@@ -56,5 +56,5 @@ console.log(
 /* Expected Output
 Who would win a one on one between LeBron James and Kevin Durant?
 LeBron James is 35 years old, is 6 ft. 9 in. and weighs 250 pounds.
-Kevin Durant is 32 years old, is 6t. 10 in. and weighs 240 pounds.
+Kevin Durant is 32 years old, is 6ft. 10 in. and weighs 240 pounds.
  */
