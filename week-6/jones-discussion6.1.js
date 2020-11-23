@@ -3,8 +3,8 @@
 ; Title:  Discussion Board 6.1 - Objects
 ; Author: Kevin Jones
 ; Date: 23 November 2020
-; Description: Object program with at least
-; two errors.
+; Description: Object property program with
+; at least two errors.
 ;===========================================
 */
 
@@ -12,15 +12,15 @@
 let playerOne = {
   name: "LeBron James",
   age: 35,
-  height: "6 ft. 9 in.",
-  weight: 250,
+  height: "6 ft. 9 in."
+  weight: 250
 };
 
 let playerTwo = {
   name: "Kevin Durant",
   age: 32,
   height: "6t. 10 in.",
-  weight: 240,
+  weight: 240
 };
 
 // display output
