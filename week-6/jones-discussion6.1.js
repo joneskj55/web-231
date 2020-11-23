@@ -19,7 +19,7 @@ let playerOne = {
 let playerTwo = {
   name: "Kevin Durant",
   age: 32,
-  height: "6ft. 10 in.",
+  height: "6 ft. 10 in.",
   weight: 240
 };
 
