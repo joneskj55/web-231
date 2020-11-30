@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Assignment 7.4</title>
+    <link rel="stylesheet" href="../site.css" />
+  </head>
+  <body>
+    <div id="table"></div>
+  </body>
+  <script>
+    // Create an HTML table of five (5) computer components
+    // Each computer component must have an id, name, amount, edit, and delete href
+    // Using inline JavaScript alert the computer components id when the "EDIT" href is selected and a confirmation when the "DELETE" href is selected
+    document.getElementById("table").innerHTML =
+      "<h1>Computer Components</h1>" +
+      "<table>" +
+      "<thead>" +
+      "<tr>" +
+      "<th>Id</th>" +
+      "<th style='text-align: left'>Name</th>" +
+      "<th>Amount</th>" +
+      "<th style='text-align: left'>Functions</th>" +
+      "</tr>" +
+      "</thead>" +
+      "<tbody>" +
+      "<tr>" +
+      "<td>1</td>" +
+      "<td>Laptop</td>" +
+      "<td>1,500.99</td>" +
+      "<td><a href='javascript:alert(1)'>EDIT</a> | <a href='javascript:window.confirm(&quot;Are you sure?&quot;)'>DELETE</a></td>" +
+      "</tr>" +
+      "<tr class='light-blue'>" +
+      "<td>2</td>" +
+      "<td>Motherboard</td>" +
+      "<td>35.70</td>" +
+      "<td><a href='javascript:alert(2)'>EDIT</a> | <a href='javascript:window.confirm(&quot;Are you sure?&quot;)'>DELETE</a></td>" +
+      "</tr>" +
+      "<tr>" +
+      "<td>3</td>" +
+      "<td>Monitor</td>" +
+      "<td>174.99</td>" +
+      "<td><a href='javascript:alert(3)'>EDIT</a> | <a href='javascript:window.confirm(&quot;Are you sure?&quot;)'>DELETE</a></td>" +
+      "</tr>" +
+      "<tr class='light-blue'>" +
+      "<td>4</td>" +
+      "<td>Mouse</td>" +
+      "<td>13.99</td>" +
+      "<td><a href='javascript:alert(4)'>EDIT</a> | <a href='javascript:window.confirm(&quot;Are you sure?&quot;)'>DELETE</a></td>" +
+      "</tr>" +
+      "<tr>" +
+      "<td>5</td>" +
+      "<td>Keyboard</td>" +
+      "<td>14.50</td>" +
+      "<td><a href='javascript:alert(5)'>EDIT</a> | <a href='javascript:window.confirm(&quot;Are you sure?&quot;)'>DELETE</a></td>" +
+      "</tr>" +
+      " </tbody>" +
+      "</table>";
+  </script>
+</html>
