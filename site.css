@@ -1,0 +1,18 @@
+/* Add site.css to your repositories base directory. */
+/* Style the table to look like the expected output. */
+table,
+th,
+td {
+  border: 1px solid #ddd7dc;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+th {
+  background-color: #4d86b8;
+  color: #f5ffff;
+}
+
+.light-blue {
+  background-color: #b2c7e5;
+}

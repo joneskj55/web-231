@@ -1,0 +1,61 @@
+<!-- ============================================
+; Title: Exercise 7.3 Client-Side JavaScript
+; Author: Kevin Jones
+; Date: 30 November 2020
+; Description: Program that creates a shopping
+; list using document.write() and another
+; using innerHTML.
+;=========================================== -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Exercise 7.3</title>
+    <script>
+      // Build an ordered list of five (5) grocery items using document.write().
+      document.write(
+        "<h1>SHOPPING LIST v.1</h1><ol><li>Oranges</li><li>Apples</li><li>Pears</li><li>Limes</li><li>Lemons</li></ol>"
+      );
+    </script>
+    <link rel="stylesheet" href="../site.css" />
+  </head>
+  <body>
+    <div id="list"></div>
+  </body>
+  <script>
+    // Build a grocery list as a table using innerHTML.
+    document.getElementById("list").innerHTML =
+      "<h1>SHOPPING LIST v.2</h1>" +
+      "<table>" +
+      "<thead>" +
+      "<tr>" +
+      "<th>Id</th>" +
+      "<th style='text-align: left'>Item</th>" +
+      "</tr>" +
+      "</thead>" +
+      "<tbody>" +
+      "<tr>" +
+      "<td>1</td>" +
+      "<td>Oranges</td>" +
+      "</tr>" +
+      "<tr class='light-blue'>" +
+      "<td>2</td>" +
+      "<td>Apples</td>" +
+      "</tr>" +
+      "<tr>" +
+      "<td>3</td>" +
+      "<td>Pears</td>" +
+      "</tr>" +
+      "<tr class='light-blue'>" +
+      "<td>4</td>" +
+      "<td>Limes</td>" +
+      "</tr>" +
+      "<tr>" +
+      "<td>5</td>" +
+      "<td>Lemons</td>" +
+      "</tr>" +
+      " </tbody>" +
+      "</table>";
+  </script>
+</html>
