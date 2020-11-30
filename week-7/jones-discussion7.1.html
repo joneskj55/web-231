@@ -1,0 +1,62 @@
+<!--============================================-->
+<!--; Title:  Discussion Board 7.1 - JavaScript in-->
+<!--; the browser -->
+<!--; Author: Kevin Jones-->
+<!--; Date: 30 November 2020-->
+<!--; Description: HTML page with embedded JavaScript-->
+<!--; & at least two errors.-->
+<!--;===========================================-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Jones | Discussion 7.1</title>
+    <script>
+      // Function to reveal hidden element.
+      function showStatus() {
+          let beforeStatus === document.getElementById("header");
+          beforeStatus.classList.remove("invisible");
+      }
+
+      // Function to hide element.
+      function hideStatus {
+          let afterStatus = document.getElementById('header');
+          afterStatus.className = 'invisible';
+      }
+    </script>
+    <style>
+      /* Styling for page */
+      body {
+        text-align: center;
+        margin-top: 10%;
+      }
+
+      /* Button styling */
+      button {
+        background-color: dodgerblue;
+        color: ivory;
+        border: 2px solid black;
+        border-radius: 5px;
+        display: block;
+        margin: 35px auto 55px;
+        padding: 16px 32px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+
+      /* invisible class */
+      .invisible {
+        opacity: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>When the buttons work, you have fixed the bugs!</h1>
+    <!--When the user clicks the button, the showStatus() function is invoked.-->
+    <button onclick="showStatus()">Click to <b>REVEAL</b> status</button>
+    <h1 id="header" class="invisible">You fixed it!</h1>
+    <!--When the user clicks the button, the hideStatus() function is invoked.-->
+    <button onclick="hideStatus()">Click to <b>HIDE</b> status</button>
+  </body>
+</html>
