@@ -1,18 +1,28 @@
-/* Add site.css to your repositories base directory. */
-/* Style the table to look like the expected output. */
-table,
-th,
-td {
-  border: 1px solid #ddd7dc;
+/*
+============================================
+; Title:  site.css
+; Author: Professor Krasso
+; Date:   25 June 2017
+; Description: Global styling for week's 7 through 9
+;===========================================
+*/
+
+table {
   border-collapse: collapse;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
   padding: 5px;
 }
 
 th {
-  background-color: #4d86b8;
-  color: #f5ffff;
+  background-color: steelblue;
+  color: white;
 }
 
-.light-blue {
-  background-color: #b2c7e5;
+tr:nth-child(even) {
+  background-color: lightsteelblue;
 }
