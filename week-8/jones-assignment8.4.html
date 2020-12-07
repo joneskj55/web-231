@@ -3,9 +3,9 @@
 ; Author: Professor Krasso
 ; Modified by: Kevin Jones
 ; Date: 7 December 2020
-; Description: Program that builds a table &
-; uses inline JavaScript alert() and confirm()
-; upon selecting href.
+; Description: Program that builds a table
+; using JavaScript & outputs an alert after
+; a jQuery click event.
 ;=========================================== -->
 
 <!DOCTYPE html>
@@ -87,11 +87,12 @@
       // Assign the output string to the "emps" through the innerHTML function.
       document.getElementById("emps").innerHTML = output;
 
-      // jQuery onClick event
       // Don't remove this, just add your code to the body of the event (curly braces)
       $(function () {
         $("table tr").click(function () {
+          // Register an onClick event for $("table tr") and call the find('td:first').html() function.
           let id = $(this).find("td:first").html();
+          // Using the getEmployee() function find the selected employee object and output the results.
           alert(getEmployee(id));
         });
       });
