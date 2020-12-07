@@ -19,15 +19,20 @@
       body {
         margin: 0;
         /*Use Roboto: 300, 400, 500 for the font*/
+        padding: 0;
         font-family: "Roboto", sans-serif;
       }
 
       /*Add a topbar (you must use pure CSS) and give it a different background color*/
       .topbar {
         background-color: #4d86b8;
-        height: 5%;
-        width: 100%;
-        position: fixed;
+        height: 50px;
+      }
+
+      /*Have the unordered list appear 20px below the topbar*/
+      h2 {
+        margin: 0;
+        padding: 20px;
       }
 
       ul {
@@ -40,8 +45,7 @@
   <body>
     <!--Add a topbar -->
     <div class="topbar"></div>
-    <!--Have the unordered list appear 20px below the topbar-->
-    <br /><br /><br /><br />
+
     <div id="fruits"></div>
 
     <script>
@@ -61,7 +65,7 @@
       ];
 
       // Add a title to the unordered list.
-      let output = "<ul><lh>Fruit</lh>";
+      let output = "<h2>Fruit</h2><ul>";
 
       // Iterate over the array of fruits...
       fruits.forEach(function (fruit) {
