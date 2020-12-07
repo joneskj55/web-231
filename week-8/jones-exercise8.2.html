@@ -1,0 +1,76 @@
+<!--============================================-->
+<!--; Title: Exercise 8.2 - Dynamic HTML -->
+<!--; Author: Kevin Jones-->
+<!--; Date: 7 December 2020-->
+<!--; Description: Build an unordered list of -->
+<!--; fruit using dynamic HTML. -->
+<!--;===========================================-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Exercise 8.2</title>
+
+    <style type="text/css">
+      /*Use Roboto: 300, 400, 500 for the font*/
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+      body {
+        margin: 0;
+        /*Use Roboto: 300, 400, 500 for the font*/
+        font-family: "Roboto", sans-serif;
+      }
+
+      /*Add a topbar (you must use pure CSS) and give it a different background color*/
+      .topbar {
+        background-color: #4d86b8;
+        height: 5%;
+        width: 100%;
+        position: fixed;
+      }
+
+      ul {
+        list-style: none;
+        /*Center the unordered list (margin: 0 auto;)*/
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <!--Add a topbar -->
+    <div class="topbar"></div>
+    <!--Have the unordered list appear 20px below the topbar-->
+    <br /><br /><br /><br />
+    <div id="fruits"></div>
+
+    <script>
+      // Create a constructor object with two fields (id & type) in order to create the array below with 2 fields.
+      function Fruit(id, type) {
+        this.id = id;
+        this.type = type;
+      }
+
+      // Create an array of fruits with two fields (id and type).
+      let fruits = [
+        new Fruit(1, "peach"),
+        new Fruit(2, "pear"),
+        new Fruit(3, "plum"),
+        new Fruit(4, "papaya"),
+        new Fruit(5, "pomegranate"),
+      ];
+
+      // Add a title to the unordered list.
+      let output = "<ul><lh>Fruit</lh>";
+
+      // Iterate over the array of fruits...
+      fruits.forEach(function (fruit) {
+        output += "<li>" + fruit.id + " " + fruit.type + "</li>";
+      });
+      output += "</ul>";
+
+      // Output the results to the DOM in an unordered list.
+      document.getElementById("fruits").innerHTML = output;
+    </script>
+  </body>
+</html>
