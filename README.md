@@ -2,7 +2,7 @@
 
 Introduction to JavaScript
 
-# contributers
+# contributors
 
 Professor Krasso - Bellevue University
 Kevin Jones - Bellevue University
